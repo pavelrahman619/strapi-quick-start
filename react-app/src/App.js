@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import RestaurantList from "./components/RestaurantList";
 
 const App = () => {
   const [error, setError] = useState(null);
@@ -21,14 +22,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <ul>
-        {restaurants.map(({ id, attributes }) => (
-          <li key={id}>
-            <h2>{attributes.Name}</h2>
-            <p>{attributes.Description[0].children[0].text}</p>
-          </li>
-        ))}
-      </ul>
+      <RestaurantList restaurants={restaurants}></RestaurantList>
     </div>
   );
 };
