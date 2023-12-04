@@ -18,7 +18,7 @@ npm run start
 
 
 Preview:
-
+![Alt text](image.png)
 
 
 
