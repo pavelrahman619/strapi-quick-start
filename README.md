@@ -1,3 +1,29 @@
+# Run project
+
+In one terminal 
+```
+npm install
+
+npm run develop
+```
+
+In another terminal:
+```
+cd .\react-app\
+
+npm install
+
+npm run start
+```
+
+
+Preview:
+
+
+
+
+
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
